@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Recipe Book</h1>
+    </header>
+    <main>
+        <div class="recipe">
+            <h2>Pancakes</h2>
+            <img src="pancakes.jpg" alt="Pancakes">
+            <p>A delicious breakfast treat!</p>
+            <button onclick="showIngredients('pancakes')">Show Ingredients</button>
+            <ul id="pancakesIngredients" class="ingredients" style="display: none;">
+                <li>1 cup all-purpose flour</li>
+                <li>2 tablespoons sugar</li>
+                <li>1 tablespoon baking powder</li>
+                <li>1/2 teaspoon salt</li>
+                <li>1 cup milk</li>
+                <li>2 tablespoons unsalted butter, melted</li>
+                <li>1 large egg</li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+    <script src="book.js"></script>
+</body>
+</html>
